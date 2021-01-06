@@ -1,0 +1,50 @@
+.book-details {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bg-pic {
+    background-color: #FFFFFF;
+}
+
+
+
+
+.firstLabel {
+    margin-right: 10px;
+}
+
+.goodreads {
+    color: #372213;
+    background-color: #F4F1EA;
+    box-shadow: 8px 12px 31px -10px black;
+}
+
+.goodreads:hover {
+    border: 1px solid #372213;
+}
+
+.btn {
+    border-radius: 300px;
+}
+
+.fb-col {
+    background-color: #4267B2;
+    color: white;
+}
+
+.pin-col {
+    background-color: #E6001A;
+    color: white;
+}
+
+.inst-logo {
+    background-color: #D90051;
+    color: white;
+}
+
+.tw-col {
+    color: #1C9DEB;
+    background-color: white;
+    border: 1px solid #1C9DEB;
+}

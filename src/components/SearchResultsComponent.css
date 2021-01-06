@@ -1,0 +1,48 @@
+.search-heading {
+    color: #2D283E;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.card-fixed-size {
+    height: 200px;
+    background-color: #F7F6F2;
+}
+
+.img-size {
+    transform: scale(0.8);
+    box-shadow: 0 30px 8px -10px rgba(0,0,0,.2);
+
+}
+
+.img-title {
+    padding: 30px;
+    height: 100px;
+    box-shadow: 0 30px 8px -10px rgba(0,0,0,.2);
+    color: #282c34;
+}
+
+.search-btn {
+    border-radius: 100px;
+}
+
+.text-btn-color {
+    color: white;
+}
+
+.specific-btn-color {
+    background-color: #e74c3c;
+}
+
+.search-btn:hover > .elem {
+    animation-name: rotate;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+

@@ -1,0 +1,15 @@
+.dashboard-logo {
+    color: darkslategray;
+
+}
+.dashboard-logo-danger {
+    color: red;
+}
+
+.dashboard-logo-success {
+    color: green;
+}
+
+.dashboard-font {
+    font-family: "Helvetica Neue";
+}

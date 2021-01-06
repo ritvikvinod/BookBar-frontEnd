@@ -1,0 +1,32 @@
+.cart-header {
+    display: inline;
+    margin-left: 30px;
+}
+
+.float-right {
+    margin-right: 30px;
+}
+
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 10px solid black;
+    padding-bottom: 20px;
+}
+
+.cart-font {
+    font-family: "Californian FB";
+}
+
+.cart-background {
+    background-color: white;
+}
+
+.cart-sm-btn {
+    margin-top: 5px;
+}
+
+

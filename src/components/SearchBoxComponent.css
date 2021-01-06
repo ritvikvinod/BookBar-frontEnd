@@ -1,0 +1,126 @@
+
+.jumbotron {
+    margin-top: 0px;
+}
+
+.buyer-bg-picture {
+    background-image: url("../bg-homepage.png");
+    background-size: cover;
+    background-color: #563D7C;
+    background-position-y: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.seller-bg-picture{
+    background-image: url("../bg-homepage.png");
+    background-size: cover;
+    background-color: #281c3b;
+    background-position-y: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .searchbar {
+        width: 70%;
+    }
+    .search_input{
+        width: 50%;
+    }
+    .search_icon{
+        width: 30%;
+    }
+}
+
+.search_input {
+    color: darkslategray;
+    font-family: Roboto;
+    border: 0;
+    outline: 0;
+    background: none;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 450px;
+    caret-color: red;
+}
+
+
+.searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.search-results-color {
+    background-color: #FFFFFF;
+}
+
+.card-fixed-size {
+    max-height: 400px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    transition: 0.1s ease;
+}
+
+.card {
+    box-shadow: 8px 12px 31px -10px black;
+}
+
+.card-title {
+    font-family: Candara;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.h1-color {
+    color: white;
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 46px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 960px) {
+    .responsive-small-screen {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+

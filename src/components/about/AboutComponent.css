@@ -1,0 +1,26 @@
+.logo-size {
+    font-size: 170px;
+    color: black;
+    border-bottom: #282c34;
+
+}
+
+.about-btn {
+    border-radius: 100px;
+    margin-left: 40%;
+    background-color: transparent;
+    color: black;
+}
+
+.about-text {
+    font-family: "Californian FB";
+    font-weight: bold;
+}
+
+.about-bg {
+    background-color: white;
+}
+
+.about-card-size {
+    max-height: 300px;
+}

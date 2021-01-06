@@ -1,0 +1,12 @@
+.carousel-style {
+    font-family: Candara;
+}
+
+.display {
+    display: inline-block;
+}
+
+.carousel-bg {
+    background-color: white;
+    border-radius: 10px;
+}

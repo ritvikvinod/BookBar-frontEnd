@@ -1,0 +1,63 @@
+
+
+.seller-navbar {
+    background-color: #281c3b;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,.2);
+}
+
+.buyer-navbar {
+    background-color: #563D7C;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,.2);
+}
+
+.btn-seller-navbar {
+    background-color:  #281c3b;
+}
+
+.btn-buyer-navbar {
+    background-color:  #563D7C;
+}
+
+.btn:hover {
+    transition-property: background-color;
+    border-bottom: white;
+    transform: scale(1.05);
+}
+
+.navbar-right {
+    margin-left: 45%;
+}
+
+.wbdv-logout:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+    }}
+
+.font-color {
+    color: white;
+}
+
+.font-color:hover {
+    color: #FFE484;
+}
+
+.logout:hover {
+    color: red;
+}
+
+.profile-btn {
+    border: 1px white;
+}
+
+.logo-color {
+    color: #FFE484;
+}
+
